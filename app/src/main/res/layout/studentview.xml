@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="6dp"
+    android:elevation="7dp"
+    app:cardUseCompatPadding="true"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/fnametv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="FName" />
+
+        <TextView
+            android:id="@+id/lnametv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_toRightOf="@+id/fnametv"
+            android:text="LName" />
+
+        <TextView
+            android:id="@+id/coursetv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fnametv"
+            android:layout_margin="10dp"
+            android:text="Course" />
+
+        <TextView
+            android:id="@+id/emailtv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/coursetv"
+            android:layout_margin="10dp"
+            android:text="Email" />
+
+        <TextView
+            android:id="@+id/gradetv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/emailtv"
+            android:layout_margin="10dp"
+            android:text="Grade" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editbtn"
+            android:text="Edit"
+            android:layout_below="@+id/gradetv"
+
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/deletebtn"
+            android:text="delete"
+            android:layout_toRightOf="@+id/editbtn"
+            android:layout_below="@+id/gradetv"
+            android:layout_marginLeft="10dp"
+
+            />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

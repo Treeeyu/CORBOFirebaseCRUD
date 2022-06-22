@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "744012979286",
+    "firebase_url": "https://corbofirebasecrud-70eec-default-rtdb.firebaseio.com",
+    "project_id": "corbofirebasecrud-70eec",
+    "storage_bucket": "corbofirebasecrud-70eec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:744012979286:android:5f8a0690dd7f4a1b856ff7",
+        "android_client_info": {
+          "package_name": "com.example.corbofirebasecrud"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "744012979286-3g0q2v4n5r6k5ueand16453t1e7q1mgo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBacoNCUOdUz5WgMpMGnju-YT25i_FkgZ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "744012979286-3g0q2v4n5r6k5ueand16453t1e7q1mgo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
